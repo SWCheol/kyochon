@@ -1,12 +1,11 @@
-import Header from "../components/Header";
+import Header from "./components/Header";
 
 const Breakdown = () => {
   return (
-    <header className="Breakdown w-80 h-80">
+    <>
       <Header />
-
-      <h1>Breakdown!</h1>
-    </header>
+      <div className="text-3xl font-bold underline">Breakdown!</div>
+    </>
   );
 };
 

@@ -1,12 +1,11 @@
-import Header from "../components/Header";
+import Header from "./components/Header";
 
 const Shop = () => {
   return (
-    <header className="Shop w-80 h-80">
+    <>
       <Header />
-
-      <h1>Shop!</h1>
-    </header>
+      <div className="text-3xl font-bold underline">Shop!</div>
+    </>
   );
 };
 

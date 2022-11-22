@@ -1,12 +1,11 @@
-import Header from "../components/Header";
+import Header from "./components/Header";
 
 const Menu = () => {
   return (
-    <header className="Menu w-80 h-80">
+    <>
       <Header />
-
-      <h1>Menu!</h1>
-    </header>
+      <div className="text-3xl font-bold underline">Menu!</div>
+    </>
   );
 };
 

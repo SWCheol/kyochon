@@ -1,6 +1,9 @@
 import "./App.css";
 
-import { Routes, Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+
+import Wrapper from "./pages/components/Wrapper";
+
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import Shop from "./pages/Shop";
@@ -9,14 +12,16 @@ import Breakdown from "./pages/Breakdown";
 
 function App() {
   return (
-    <div className="App ">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/event" element={<Event />} />
-        <Route path="/breakdown" element={<Breakdown />} />
-      </Routes>
+    <div className="App">
+      <Wrapper>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/Shop" element={<Shop />} />
+          <Route path="/Event" element={<Event />} />
+          <Route path="/Breakdown" element={<Breakdown />} />
+        </Routes>
+      </Wrapper>
     </div>
   );
 }

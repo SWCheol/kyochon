@@ -1,12 +1,11 @@
-import Header from "../components/Header";
+import Header from "./components/Header";
 
 const Event = () => {
   return (
-    <header className="Event w-80 h-80">
+    <>
       <Header />
-
-      <h1>Event!</h1>
-    </header>
+      <div className="text-3xl font-bold underline">Event!</div>
+    </>
   );
 };
 
