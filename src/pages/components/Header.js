@@ -5,14 +5,20 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="flex justify-between">
+    <header className="flex justify-between items-center bg-white h-12">
       {location.pathname === "/" ? (
-        <div className="text-black">사이드바</div>
+        <button className="w-12 h-12 flex justify-center items-center">
+          <span class="material-symbols-outlined text-3xl">menu</span>
+        </button>
       ) : (
-        <Link to="/">화살표</Link>
+        <Link className="w-12 h-12 flex justify-center items-center" to="/">
+          <span class="material-symbols-outlined text-3xl">arrow_back</span>
+        </Link>
       )}
-      <h1 className="font-extrabold tracking-widest">KYOCHON 1991</h1>
-      <div>장바구니</div>
+      <h1 className="text-xl font-extrabold tracking-widest">KYOCHON 1991</h1>
+      <button className="w-12 h-12 flex justify-center items-center">
+        <span class="material-symbols-outlined text-3xl">shopping_cart</span>
+      </button>
     </header>
   );
 };
