@@ -1,0 +1,16 @@
+{
+  "event": {
+    "main": {},
+    "now": {},
+    "end": {}
+  },
+
+  "menu": [
+    {
+      "theme": "kyochon",
+      "src": "/static/media/교촌_순살(R)",
+      "name": "교촌_순살 (R)",
+      "price": "19,000원"
+    }
+  ]
+}
