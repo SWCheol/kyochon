@@ -2,7 +2,7 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon(512x512).ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -22,10 +22,10 @@
     <!-- 홈 화면에서 표시되는 앱 이름을 지정 -->
     <meta name="apple-mobile-web-app-title" content="Timer" />
     <!-- 홈 화면에서 표시되는 앱 아이콘을 지정 -->
-    <link rel="apple-touch-icon" href="icons/icon-152x152.png" />
+    <link rel="apple-touch-icon" href="img/favicon(192x192).png" />
 
     <!-- manifest -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- <link rel="manifest" href="manifest.json" /> -->
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -40,10 +40,12 @@
     <!-- 웹 앱 매니페스트를 읽어 들이기 -->
     <link rel="manifest" href="manifest.json" />
     <!-- 서비스 워커를 등록 -->
-    <script type="text/html">
+    <script>
       if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("sw.js").then((reg) => {
-      console.log("서비스 워커가 등록됨.", reg); }); }
+        navigator.serviceWorker.register("sw.js").then((reg) => {
+          console.log("서비스 워커가 등록됨.", reg);
+        });
+      }
     </script>
 
     <!-- google font icon -->

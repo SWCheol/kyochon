@@ -1,9 +1,15 @@
 {
-  "event": {
-    "main": {},
-    "now": {},
-    "end": {}
-  },
+  "event": [
+    {
+      "theme": "main"
+    },
+    {
+      "theme": "now"
+    },
+    {
+      "theme": "end"
+    }
+  ],
 
   "menu": [
     {

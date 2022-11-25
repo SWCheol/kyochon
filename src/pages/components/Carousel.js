@@ -2,9 +2,16 @@ import image from "../../image.json";
 
 const Carousel = () => {
   return (
-    <div>
+    <div className="h-2/5">
       {image.menu.map((img) => {
-        return <img key={img.name} src={img.src}></img>;
+        return (
+          <img
+            className="w-full object-cover"
+            key={img.name}
+            src={img.src}
+            alt={img.name}
+          ></img>
+        );
       })}
     </div>
   );
