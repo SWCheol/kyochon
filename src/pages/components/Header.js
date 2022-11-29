@@ -19,7 +19,7 @@ const Header = () => {
     <header className="flex justify-between items-center bg-white h-12">
       {location.pathname === "/" ? (
         <button
-          id="sidebar"
+          id="sideBtn"
           onClick={sideBtn}
           className="w-12 h-12 flex justify-center items-center"
         >
