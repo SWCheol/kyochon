@@ -29,7 +29,7 @@ self.addEventListener("install", function (event) {
 
 //서비스워커 설치후 네트워크 요청이 있을때는 캐쉬로 돌려줌(캐쉬된 자원으로)
 self.addEventListener("fetch", function (event) {
-  console.log("서비스워커 페치");
+  // console.log("서비스워커 페치");
   event.respondWith(
     //fetch과에 대한 응답을 알려주는 API
     caches

@@ -3,7 +3,7 @@ import Content from "./components/Content";
 
 import TopMenu from "./components/TopMenu";
 
-import Map from "./Map";
+import Map from "./components/Map";
 
 import data from "../shopLocation.json";
 
@@ -13,7 +13,7 @@ const ShopMap = () => {
   return (
     <>
       <Header />
-      <nav className="flex justify-around h-12 items-center text-lg bg-white">
+      <nav className="flex justify-around h-12 items-center text-base bg-white">
         <TopMenu link="/shop" title="매장 검색" />
         <TopMenu
           link="/shop/shopMap"
@@ -31,7 +31,7 @@ const ShopMap = () => {
                 준비 중
               </span>
             </div>
-            <div className="border border-solid border-orange-400 rounded-xl text-white bg-orange-400 px-2 ">
+            <div className="border border-solid border-orange-500 rounded-xl text-white bg-orange-500 px-2 ">
               길찾기
             </div>
           </div>
@@ -77,7 +77,7 @@ const ShopMap = () => {
               </div>
             </div>
           </div>
-          <div className="w-4/5 mx-auto text-center p-2 my-4 text-orange-400 border border-solid border-oranger-400 rounded-2xl">
+          <div className="w-4/5 mx-auto text-center p-2 my-4 text-orange-500 border border-solid border-oranger-400 rounded-2xl">
             전화문의
           </div>
         </article>

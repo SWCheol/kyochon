@@ -4,7 +4,7 @@ const Carousel = () => {
   const eventMain = image.event.filter((ele) => ele.theme === "main");
 
   return (
-    <div className="h-2/5 oveflow-x flex bg-white">
+    <div className="h-2/5 oveflow-x flex bg-white relative">
       {eventMain.map((img, index) => {
         return (
           <img

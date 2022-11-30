@@ -32,7 +32,7 @@ const Map = () => {
     });
 
     console.log("loading kakao map");
-  }, []);
+  });
 
   //   const container = document.getElementById("map");
   //   const options = {

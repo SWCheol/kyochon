@@ -21,7 +21,7 @@ const Header = () => {
         <button
           id="sideBtn"
           onClick={sideBtn}
-          className="w-12 h-12 flex justify-center items-center"
+          className="w-12 h-12 flex justify-center items-center z-50"
         >
           <span className="material-symbols-outlined text-3xl">menu</span>
         </button>
@@ -36,7 +36,7 @@ const Header = () => {
           shopping_cart
         </span>
       </button>
-      <Sidebar active={active} />
+      {location.pathname === "/" ? <Sidebar active={active} /> : ""}
     </header>
   );
 };

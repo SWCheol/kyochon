@@ -7,7 +7,7 @@ const BreakdownOut = () => {
   return (
     <>
       <Header />
-      <nav className="flex justify-around h-12 items-center text-lg bg-white">
+      <nav className="flex justify-around h-12 items-center text-base bg-white">
         <TopMenu
           link="/breakdownOut"
           title="배달/포장 주문"

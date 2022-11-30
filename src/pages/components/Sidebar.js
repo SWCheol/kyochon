@@ -1,45 +1,127 @@
+import { useEffect, useState } from "react";
+
+import { Link } from "react-router-dom";
+
+import SidebarContents from "./SidebarContents";
+
 const Sidebar = (props) => {
-  const sidebar = document.getElementById("sidebar");
-  const contents = document.getElementById("contents");
-  const shadow = document.getElementById("shadow");
+  const sidebarClassname = "max-w-sm w-full h-screen absolute top-0 left-0 ";
+  const contentsClassname =
+    "w-3/4 h-screen bg-white px-5 absolute top-0 duration-300 transition-[left] z-15 ";
+  const shadowClassname =
+    "w-1/4 h-screen bg-black absolute left-3/4 duration-300 transition-[opacity] ";
 
-  const state = props.active;
+  const [sidebar, setSidebar] = useState(sidebarClassname + "-z-10");
+  const [contents, setContents] = useState(contentsClassname + "-left-full");
+  const [shadow, setShadow] = useState(shadowClassname + "opacity-0");
 
-  const active = () => {
-    sidebar.classList.toggle("z-10");
-    contents.classList.toggle("left-full");
-    shadow.classList.toggle("opacity-60");
+  const on = () => {
+    setSidebar(sidebarClassname + "z-10");
+    setContents(contentsClassname + "left-0");
+    setShadow(shadowClassname + "opacity-60");
   };
 
-  window.addEventListener("click", () => {
-    if (state === "active") {
-      console.log(state);
-      active();
+  const off = () => {
+    setSidebar(sidebarClassname + "-z-10");
+    setContents(contentsClassname + "-left-full");
+    setShadow(shadowClassname + "opacity-0");
+  };
+
+  useEffect(() => {
+    if (props.active === "active") {
+      on();
+    } else {
+      off();
     }
-  });
+  }, [props.active]);
 
   return (
     <>
-      <div
-        id="sidebar"
-        className="max-w-sm w-full h-screen absolute top-0 left-0 -z-10"
-      >
-        <div
-          id="contents"
-          className="w-3/4 h-screen bg-white absolute top-0 transition-[left] duration-300 -left-full"
-        >
-          <div id="top">
+      <div id="sidebar" className={sidebar}>
+        <div id="contents" className={contents}>
+          <div
+            id="top"
+            className="h-12 flex justify-end items-center border-b border-solid border-gray-200"
+          >
             <span className="material-symbols-outlined">person</span>
-            <span className="material-symbols-outlined">
+            <span className="material-symbols-outlined ml-3">
               notifications_active
             </span>
           </div>
+          <div className="flex border-b border-solid pb-6 border-gray-200">
+            <article
+              id="deliveryOrder"
+              className="bg-gray-200 rounded-xl m-3 w-2/5 p-3"
+            >
+              <div>
+                <span className="material-symbols-outlined text-5xl">
+                  motorcycle
+                </span>
+                <div>배달주문</div>
+              </div>
+            </article>
+            <article
+              id="takeOrder"
+              className="bg-gray-200 rounded-xl m-3 w-2/5 p-3"
+            >
+              <div>
+                <span className="material-symbols-outlined text-5xl">
+                  local_mall
+                </span>
+                <div>포장주문</div>
+              </div>
+            </article>
+          </div>
+          <SidebarContents>
+            <div className="flex items-center mb-2">
+              <span className="material-symbols-outlined mr-3">
+                radio_button_checked
+              </span>
+              포인트
+            </div>
+            <div className="flex items-center mb-2">
+              <span className="material-symbols-outlined mr-3">
+                local_activity
+              </span>
+              E-쿠폰
+            </div>
+          </SidebarContents>
+          <SidebarContents>
+            <Link className="flex items-center mb-2" to="/Menu">
+              <span className="material-symbols-outlined mr-3">menu_book</span>
+              메뉴소개
+            </Link>
+            <Link className="flex items-center mb-2" to="/Menu">
+              <span className="material-symbols-outlined mr-3">storefront</span>
+              매장찾기
+            </Link>
+            <Link className="flex items-center mb-2" to="/Menu">
+              <span className="material-symbols-outlined mr-3">campaign</span>
+              이벤트
+            </Link>
+            <Link className="flex items-center mb-2" to="/Menu">
+              <span className="material-symbols-outlined mr-3">fact_check</span>
+              주문내역
+            </Link>
+          </SidebarContents>
+          <SidebarContents>
+            <div className="flex items-center mb-2">
+              <span className="material-symbols-outlined mr-3">list_alt</span>
+              공지사항
+            </div>
+            <div className="flex items-center mb-2">
+              <span className="material-symbols-outlined mr-3">
+                find_in_page
+              </span>
+              이용안내
+            </div>
+            <div className="flex items-center mb-2">
+              <span className="material-symbols-outlined mr-3">settings</span>
+              설정
+            </div>
+          </SidebarContents>
         </div>
-        <div
-          id="shadow"
-          onClick={active}
-          className="w-full h-screen bg-black duration-300 transition-[opacity] opacity-0"
-        ></div>
+        {/* <div id="shadow" className={shadow}></div> */}
       </div>
     </>
   );

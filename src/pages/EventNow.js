@@ -13,7 +13,7 @@ const EventNow = () => {
   return (
     <>
       <Header />
-      <nav className="flex justify-around h-12 items-center text-lg bg-white">
+      <nav className="flex justify-around h-12 items-center text-base bg-white">
         <TopMenu
           link="/eventNow"
           title="진행 이벤트"

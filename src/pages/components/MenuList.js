@@ -7,7 +7,7 @@ const MenuList = (props) => {
           <div>{props.name}</div>
           <div>{props.price}</div>
         </div>
-        <span class="basis-1/6 material-symbols-outlined text-3xl">
+        <span className="basis-1/6 material-symbols-outlined text-3xl">
           add_shopping_cart
         </span>
       </div>
