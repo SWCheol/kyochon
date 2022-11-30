@@ -10,13 +10,14 @@ const Home = () => {
       <Header />
       <Content>
         <Carousel>Carousel</Carousel>
-        <div className="p-3 bg-slate-200 h-3/5">
+        <div className="p-3 bg-slate-200 h-3/5 min-h-[400px]">
           <article
             id="login"
             className="bg-white rounded-xl m-3 mb-0 p-3 flex justify-between"
           >
-            <div id="login" className="w-1/2 pr-3 text-xl">
-              <span className="text-orange-500">로그인</span>이<br />
+            <div id="login" className="w-1/2 pr-3 text-xl h-fit self-center">
+              <span className="text-orange-500">로그인</span>이
+              <br />
               필요합니다!
             </div>
 

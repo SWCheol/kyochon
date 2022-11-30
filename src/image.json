@@ -2,169 +2,169 @@
   "event": [
     {
       "theme": "main",
-      "src": "../../img/event/메인_1.jpg",
+      "src": "img/event/메인_1.jpg",
       "name": "블랙시크릿콤보",
       "date": "2022-09-22 ~ 2022-11-30"
     },
     {
       "theme": "main",
-      "src": "src/img/event/메인_2.jpg",
+      "src": "img/event/메인_2.jpg",
       "name": "술이 술술 들어가는 교촌 일품안주",
       "date": "2022-11-17 ~ 2022-12-31"
     },
     {
       "theme": "main",
-      "src": "src/img/event/메인_3.jpg",
+      "src": "img/event/메인_3.jpg",
       "name": "교촌x프레딧 1만원 추가 혜택받기",
       "date": "2022-11-16 ~ 2022-11-30"
     },
     {
       "theme": "main",
-      "src": "src/img/event/메인_4.jpeg",
+      "src": "img/event/메인_4.jpeg",
       "name": "응원쿠폰팩",
       "date": "2022-11-10 ~ 2022-12-30"
     },
     {
       "theme": "main",
-      "src": "src/img/event/메인_5.jpeg",
+      "src": "img/event/메인_5.jpeg",
       "name": "블랙시크릿 인증이벤트",
       "date": "2022-11-10 ~ 2022-12-31"
     },
     {
       "theme": "main",
-      "src": "src/img/event/메인_6.jpg",
+      "src": "img/event/메인_6.jpg",
       "name": "친구초대이벤트2",
       "date": "2022-11-07 ~ 2022-12-31"
     },
     {
       "theme": "main",
-      "src": "src/img/event/메인_7.jpg",
+      "src": "img/event/메인_7.jpg",
       "name": "10월 수퍼데이",
       "date": "2022-10-04 ~ 2022-11-30"
     },
     {
       "theme": "main",
-      "src": "src/img/event/메인_8.png",
+      "src": "img/event/메인_8.png",
       "name": "1991라거 할인",
       "date": "2022-10-01 ~ 2022-11-30"
     },
     {
       "theme": "now",
-      "src": "src/img/event/진행_1.jpg",
+      "src": "img/event/진행_1.jpg",
       "name": "술이 술술 들어가는 교촌 일품안주",
       "date": "2022-11-17 ~ 2022-12-31"
     },
     {
       "theme": "now",
-      "src": "src/img/event/진행_2.png",
+      "src": "img/event/진행_2.jpg",
       "name": "교촌x프레딧 1만원 추가 혜택받기",
       "date": "2022-11-16 ~ 2022-11-30"
     },
     {
       "theme": "now",
-      "src": "src/img/event/진행_3.jpg",
+      "src": "img/event/진행_3.jpg",
       "name": "응원쿠폰팩",
       "date": "2022-11-10 ~ 2022-12-30"
     },
     {
       "theme": "now",
-      "src": "src/img/event/진행_4.jpg",
+      "src": "img/event/진행_4.jpg",
       "name": "블랙시크릿 인증이벤트",
       "date": "2022-11-10 ~ 2022-12-31"
     },
     {
       "theme": "now",
-      "src": "src/img/event/진행_5.jpg",
+      "src": "img/event/진행_5.jpg",
       "name": "친구초대이벤트2",
       "date": "2022-11-07 ~ 2022-12-31"
     },
     {
       "theme": "now",
-      "src": "src/img/event/진행_6.jpg",
+      "src": "img/event/진행_6.jpg",
       "name": "10월 수퍼데이",
       "date": "2022-10-04 ~ 2022-11-30"
     },
     {
       "theme": "now",
-      "src": "src/img/event/진행_7.png",
+      "src": "img/event/진행_7.png",
       "name": "1991라거 할인",
       "date": "2022-10-01 ~ 2022-11-30"
     },
     {
       "theme": "now",
-      "src": "src/img/event/진행_8.jpg",
+      "src": "img/event/진행_8.jpg",
       "name": "블랙시크릿콤보",
       "date": "2022-09-22 ~ 2022-11-30"
     },
     {
       "theme": "end",
-      "src": "src/img/event/종료_1.jpg",
+      "src": "img/event/종료_1.jpg",
       "name": "친구초대이벤트",
       "date": "2022-10-05 ~ 2022-11-06"
     },
     {
       "theme": "end",
-      "src": "src/img/event/종료_2.jpg",
+      "src": "img/event/종료_2.jpg",
       "name": "교촌 멤버십 리뉴얼",
       "date": "2022-10-05 ~ 2022-11-06"
     },
     {
       "theme": "end",
-      "src": "src/img/event/종료_3.jpg",
+      "src": "img/event/종료_3.jpg",
       "name": "교촌 시크릿쿠폰",
       "date": "2022-09-15 ~ 2022-10-30"
     },
     {
       "theme": "end",
-      "src": "src/img/event/종료_4.png",
+      "src": "img/event/종료_4.png",
       "name": "교촌 스크래치 쿠폰 이벤트",
       "date": "2022-09-21 ~ 2022-10-31"
     },
     {
       "theme": "end",
-      "src": "src/img/event/종료_5.png",
+      "src": "img/event/종료_5.png",
       "name": "가히 혁명적인 맛! 블랙시크릿콤보 출시",
       "date": "2022-09-22 ~ 2022-10-16"
     },
     {
       "theme": "end",
-      "src": "src/img/event/종료_6.jpg",
+      "src": "img/event/종료_6.jpg",
       "name": "전체 금액의 10% 무제한 할인 이벤트",
       "date": "2022-08-04 ~ 2022-09-30"
     },
     {
       "theme": "end",
-      "src": "src/img/event/종료_7.jpg",
+      "src": "img/event/종료_7.jpg",
       "name": "카카오채널 추가 시 사이드 최대 50%",
       "date": "2022-08-18 ~ 2022-09-30"
     },
     {
       "theme": "end",
-      "src": "src/img/event/종료_8.png",
+      "src": "img/event/종료_8.png",
       "name": "교촌치킨 선물하기",
       "date": "2022-08-22 ~ 2022-09-12"
     },
     {
       "theme": "end",
-      "src": "src/img/event/종료_9.jpg",
+      "src": "img/event/종료_9.jpg",
       "name": "교촌 모니터링 요원 모집",
       "date": "2022-08-24 ~ 2022-08-31"
     },
     {
       "theme": "end",
-      "src": "src/img/event/종료_10.jpg",
+      "src": "img/event/종료_10.jpg",
       "name": "교촌치킨 피크닉백 앵콜이벤트",
       "date": "2022-08-25 ~ 2022-08-28"
     },
     {
       "theme": "end",
-      "src": "src/img/event/종료_11.jpg",
+      "src": "img/event/종료_11.jpg",
       "name": "비상선언",
       "date": "2022-07-21 ~ 2022-08-15"
     },
     {
       "theme": "end",
-      "src": "src/img/event/종료_12.jpg",
+      "src": "img/event/종료_12.jpg",
       "name": "전국 맛 표현대회",
       "date": "2022-07-25 ~ 2022-08-14"
     }
@@ -173,211 +173,211 @@
   "menu": [
     {
       "theme": "kyochon",
-      "src": "/static/media/교촌_순살(R).png",
+      "src": "img/menu/교촌_순살(R).png",
       "name": "교촌순살(R)",
       "price": "19,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/교촌_순살(S).png",
+      "src": "img/menu/교촌_순살(S).png",
       "name": "교촌순살(S)",
       "price": "10,500원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/교촌_콤보.png",
+      "src": "img/menu/교촌_콤보.png",
       "name": "교촌콤보",
       "price": "19,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/교촌_스틱.png",
+      "src": "img/menu/교촌_스틱.png",
       "name": "교촌스틱",
       "price": "19,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/교촌_오리지날.png",
+      "src": "img/menu/교촌_오리지날.png",
       "name": "교촌오리지날",
       "price": "16,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/교촌_윙.png",
+      "src": "img/menu/교촌_윙.png",
       "name": "교촌윙",
       "price": "19,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/허니_오리지날.png",
+      "src": "img/menu/허니_오리지날.png",
       "name": "허니오리지날",
       "price": "16,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/허니_콤보.png",
+      "src": "img/menu/허니_콤보.png",
       "name": "허니콤보",
       "price": "20,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/허니_순살(R).png",
+      "src": "img/menu/허니_순살(R).png",
       "name": "허니순살(R)",
       "price": "21,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/허니_순살(S).png",
+      "src": "img/menu/허니_순살(S).png",
       "name": "허니순살(S)",
       "price": "11,500원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/레드_오리지날.png",
+      "src": "img/menu/레드_오리지날.png",
       "name": "레드오리지날",
       "price": "17,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/레드_윙.png",
+      "src": "img/menu/레드_윙.png",
       "name": "레드윙",
       "price": "20,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/레드_스틱.png",
+      "src": "img/menu/레드_스틱.png",
       "name": "레드스틱",
       "price": "20,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/레드_콤보.png",
+      "src": "img/menu/레드_콤보.png",
       "name": "레드콤보",
       "price": "20,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/레드_순살(R).png",
+      "src": "img/menu/레드_순살(R).png",
       "name": "레드순살(R)",
       "price": "20,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/레드_순살(S).png",
+      "src": "img/menu/레드_순살(S).png",
       "name": "레드순살(S)",
       "price": "11,500원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/블랙_시크릿콤보.jpg",
+      "src": "img/menu/블랙_시크릿콤보.jpg",
       "name": "블랙시크릿콤보",
       "price": "23,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/블랙_시크릿오리지날.jpg",
+      "src": "img/menu/블랙_시크릿오리지날.jpg",
       "name": "블랙시크릿오리지날",
       "price": "20,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/블랙_시크릿순살(R).jpg",
+      "src": "img/menu/블랙_시크릿순살(R).jpg",
       "name": "블랙시크릿순살(R)",
       "price": "23,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/블랙_시크릿순살(S).jpg",
+      "src": "img/menu/블랙_시크릿순살(S).jpg",
       "name": "블랙시크릿순살(S)",
       "price": "14,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/믹스_레블반반오리지날.jpg",
+      "src": "img/menu/믹스_레블반반오리지날.jpg",
       "name": "레블반반오리지날",
       "price": "20,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/믹스_반반오리지날.png",
+      "src": "img/menu/믹스_반반오리지날.png",
       "name": "반반오리지날",
       "price": "17,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/믹스_반반윙.jpg",
+      "src": "img/menu/믹스_반반윙.png",
       "name": "반반윙",
       "price": "20,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/믹스_반반스틱.png",
+      "src": "img/menu/믹스_반반스틱.png",
       "name": "반반스틱",
       "price": "20,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/믹스_반반콤보.png",
+      "src": "img/menu/믹스_반반콤보.png",
       "name": "반반콤보",
       "price": "20,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/믹스_반반순살.png",
+      "src": "img/menu/믹스_반반순살.png",
       "name": "반반순살",
       "price": "20,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/믹스_레허반반순살.png",
+      "src": "img/menu/믹스_레허반반순살.png",
       "name": "레허반반순살",
       "price": "22,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/믹스_시그니처세트.png",
+      "src": "img/menu/믹스_시그니처세트.png",
       "name": "시그니처세트",
       "price": "27,500원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/믹스_시그니처순살세트.png",
+      "src": "img/menu/믹스_시그니처순살세트.png",
       "name": "시그니처순살세트",
       "price": "30,500원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/후라이드_리얼후라이드.png",
+      "src": "img/menu/후라이드_리얼후라이드.png",
       "name": "리얼후라이드",
       "price": "17,500원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/후라이드_리얼후라이드순살.png",
+      "src": "img/menu/후라이드_리얼후라이드순살.png",
       "name": "리얼후라이드순살",
       "price": "19,500원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/후라이드_살살후라이드.png",
+      "src": "img/menu/후라이드_살살후라이드.png",
       "name": "살살후라이드",
       "price": "17,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/후라이드_파채소이살살.png",
+      "src": "img/menu/후라이드_파채소이살살.png",
       "name": "파채소이살살",
       "price": "17,000원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/스페셜_발사믹치킨.png",
+      "src": "img/menu/스페셜_발사믹치킨.jpg",
       "name": "발사믹치킨",
       "price": "18,500원"
     },
     {
       "theme": "kyochon",
-      "src": "src/img/menu/스페셜_치즈트러플순살.png",
+      "src": "img/menu/스페셜_치즈트러플순살.png",
       "name": "치즈트러플순살",
       "price": "19,000원"
     }
