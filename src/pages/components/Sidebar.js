@@ -57,7 +57,7 @@ const Sidebar = (props) => {
                 <span className="material-symbols-outlined text-5xl">
                   motorcycle
                 </span>
-                <div>배달주문</div>
+                <div className="text-xl">배달주문</div>
               </div>
             </article>
             <article
@@ -68,7 +68,7 @@ const Sidebar = (props) => {
                 <span className="material-symbols-outlined text-5xl">
                   local_mall
                 </span>
-                <div>포장주문</div>
+                <div className="text-xl">포장주문</div>
               </div>
             </article>
           </div>
