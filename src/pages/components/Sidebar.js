@@ -7,9 +7,9 @@ import SidebarContents from "./SidebarContents";
 const Sidebar = (props) => {
   const sidebarClassname = "max-w-sm w-full h-screen absolute top-0 left-0 ";
   const contentsClassname =
-    "w-3/4 h-screen bg-white px-5 absolute top-0 duration-300 transition-[left] ";
+    "w-3/4 h-screen bg-white px-5 absolute top-0 duration-300 transition-[left] z-15 ";
   const shadowClassname =
-    "w-full h-screen bg-black absolute left-0 duration-300 transition-[opacity] ";
+    "w-1/4 h-screen bg-black absolute left-3/4 duration-300 transition-[opacity] ";
 
   const [sidebar, setSidebar] = useState(sidebarClassname + "-z-10");
   const [contents, setContents] = useState(contentsClassname + "-left-full");
@@ -57,7 +57,7 @@ const Sidebar = (props) => {
                 <span className="material-symbols-outlined text-5xl">
                   motorcycle
                 </span>
-                <div className="text-xl">배달주문</div>
+                <div>배달주문</div>
               </div>
             </article>
             <article
@@ -68,7 +68,7 @@ const Sidebar = (props) => {
                 <span className="material-symbols-outlined text-5xl">
                   local_mall
                 </span>
-                <div className="text-xl">포장주문</div>
+                <div>포장주문</div>
               </div>
             </article>
           </div>
@@ -91,15 +91,15 @@ const Sidebar = (props) => {
               <span className="material-symbols-outlined mr-3">menu_book</span>
               메뉴소개
             </Link>
-            <Link className="flex items-center mb-2" to="/Menu">
+            <Link className="flex items-center mb-2" to="/Shop">
               <span className="material-symbols-outlined mr-3">storefront</span>
               매장찾기
             </Link>
-            <Link className="flex items-center mb-2" to="/Menu">
+            <Link className="flex items-center mb-2" to="/EventNow">
               <span className="material-symbols-outlined mr-3">campaign</span>
               이벤트
             </Link>
-            <Link className="flex items-center mb-2" to="/Menu">
+            <Link className="flex items-center mb-2" to="/BreakdownOut">
               <span className="material-symbols-outlined mr-3">fact_check</span>
               주문내역
             </Link>
