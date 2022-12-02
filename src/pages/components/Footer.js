@@ -21,7 +21,7 @@ const Footer = () => {
 
       <div className="absolute top-4 left-2/4 w-px h-12 bg-slate-300"></div>
 
-      <Link className="w-1/4" to="/EventNow">
+      <Link className="w-1/4" to="/Event">
         <span className="material-symbols-outlined text-4xl text-orange-500">
           campaign
         </span>
@@ -30,7 +30,7 @@ const Footer = () => {
 
       <div className="absolute top-4 left-3/4 w-px h-12 bg-slate-300"></div>
 
-      <Link className="w-1/4" to="/BreakdownOut">
+      <Link className="w-1/4" to="/Breakdown">
         <span className="material-symbols-outlined text-4xl text-orange-500">
           fact_check
         </span>

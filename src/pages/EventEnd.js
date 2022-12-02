@@ -1,11 +1,11 @@
-import Header from "./components/Header";
-import Content from "./components/Content";
+import Header from "../components/Header";
+import Content from "../components/Content";
 
-import TopMenu from "./components/TopMenu";
+import TopMenu from "../components/TopMenu";
 
-import EventList from "./components/EventList";
+import EventList from "../components/EventList";
 
-import image from "../image.json";
+import image from "../event.json";
 
 const EventEnd = () => {
   const eventEnd = image.event.filter((ele) => ele.theme === "end");

@@ -1,11 +1,11 @@
-import Header from "./components/Header";
-import Content from "./components/Content";
+import Header from "../components/Header";
+import Content from "../components/Content";
 
-import TopMenu from "./components/TopMenu";
+import TopMenu from "../components/TopMenu";
 
-import ShopSearch from "./components/ShopSearch";
+import ShopSearch from "../components/ShopSearch";
 
-import shopLocation from "../shopLocation.json";
+import shopLocation from "../../shopLocation.json";
 
 const ShopList = () => {
   console.log(shopLocation.seoul);

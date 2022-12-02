@@ -95,11 +95,11 @@ const Sidebar = (props) => {
               <span className="material-symbols-outlined mr-3">storefront</span>
               매장찾기
             </Link>
-            <Link className="flex items-center mb-2" to="/EventNow">
+            <Link className="flex items-center mb-2" to="/Event">
               <span className="material-symbols-outlined mr-3">campaign</span>
               이벤트
             </Link>
-            <Link className="flex items-center mb-2" to="/BreakdownOut">
+            <Link className="flex items-center mb-2" to="/Breakdown">
               <span className="material-symbols-outlined mr-3">fact_check</span>
               주문내역
             </Link>

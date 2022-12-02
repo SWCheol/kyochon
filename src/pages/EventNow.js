@@ -5,7 +5,7 @@ import TopMenu from "./components/TopMenu";
 
 import EventList from "./components/EventList";
 
-import image from "../image.json";
+import image from "../event.json";
 
 const EventNow = () => {
   const eventNow = image.event.filter((ele) => ele.theme === "now");
