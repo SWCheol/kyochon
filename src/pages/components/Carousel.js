@@ -1,7 +1,7 @@
-import image from "../../image.json";
+import event from "../../image.json";
 
 const Carousel = () => {
-  const eventMain = image.event.filter((ele) => ele.theme === "main");
+  const eventMain = event.event.filter((ele) => ele.theme === "main");
 
   return (
     <div className="h-2/5 oveflow-x flex bg-white relative">
