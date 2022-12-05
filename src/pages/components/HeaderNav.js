@@ -4,11 +4,17 @@ const HeaderNav = (props) => {
       ? `basis-1/${props.menu.length} flex-none`
       : "basis-1/5 flex-none";
 
-  console.log(props.parent);
+  // console.log(props.parent); 상위 component
 
   const btnSelected = (e) => {
-    console.log(e.target.textContent);
-    const color = "text-orange-500";
+    const color = " text-orange-500";
+    e.target.className.includes(color)
+      ? (e.target.className = style - color)
+      : (e.target.className += style + color);
+
+    // console.log(e.target.className.includes(color));
+
+    // props.parent(e.target.textContent);
   };
 
   return (

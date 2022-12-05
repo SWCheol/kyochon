@@ -6,7 +6,7 @@ import MenuList from "./components/MenuList";
 
 import image from "../image.json";
 
-const Menu = () => {
+const Menu = (props) => {
   const menu = [
     "전체메뉴",
     "교촌",
@@ -24,14 +24,13 @@ const Menu = () => {
       : "basis-1/5 flex-none";
 
   const btnSelected = (e) => {
-    console.log(e.target.textContent);
     const color = "text-orange-500";
   };
 
   return (
     <>
       <Header />
-      <nav className="h-12 px-2 flex bg-white overflow-hidden text-base">
+      {/* <nav className="h-12 px-2 flex bg-white overflow-hidden text-base">
         {menu.map((menu, index) => {
           return (
             <button className={style} key={index} onClick={btnSelected}>
@@ -39,8 +38,8 @@ const Menu = () => {
             </button>
           );
         })}
-      </nav>
-      {/* <HeaderNav menu={menu} parent={Menu} /> */}
+      </nav> */}
+      <HeaderNav menu={menu} parent={Menu} />
       <Content>
         <div>
           {image.menu.map((menu, index) => {

@@ -7,7 +7,7 @@ const Shop = () => {
   return (
     <>
       <Header />
-      <HeaderNav menu={menu} />
+      <HeaderNav menu={menu}/>
       <Content>
         <form className="w-10/12 mx-auto relative border border-solid border-black rounded-xl mt-4 mb-2">
           <input
