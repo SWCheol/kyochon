@@ -17,6 +17,7 @@ const Header = () => {
 
   return (
     <header className="flex justify-between items-center bg-white h-12">
+      {location.pathname === "/" ? <Sidebar active={active} /> : ""}
       {location.pathname === "/" ? (
         <button
           id="sideBtn"
@@ -36,7 +37,6 @@ const Header = () => {
           shopping_cart
         </span>
       </button>
-      {location.pathname === "/" ? <Sidebar active={active} /> : ""}
     </header>
   );
 };
