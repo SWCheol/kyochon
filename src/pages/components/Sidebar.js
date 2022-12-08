@@ -5,25 +5,23 @@ import { Link } from "react-router-dom";
 import SidebarContents from "./SidebarContents";
 
 const Sidebar = (props) => {
-  const sidebarClassname = "max-w-sm w-full h-screen absolute top-0 left-0 ";
-  const contentsClassname =
-    "w-3/4 h-screen bg-white px-5 absolute top-0 duration-300 transition-[left] z-15 ";
+  const sidebarClassname =
+    "max-w-sm w-full h-screen absolute top-0 left-0 transition-[left] z-15 ";
   const shadowClassname =
-    "w-1/4 h-screen bg-black absolute left-3/4 duration-300 transition-[opacity] ";
+    "w-[200vw] h-screen bg-black absolute left-1/4 duration-300 transition-[opacity] ";
+  const contents =
+    "w-3/4 h-screen bg-white px-5 absolute top-0 duration-300 transition-[left] z-50 ";
 
   const [sidebar, setSidebar] = useState(sidebarClassname + "-z-10");
-  const [contents, setContents] = useState(contentsClassname + "-left-full");
   const [shadow, setShadow] = useState(shadowClassname + "opacity-0");
 
   const on = () => {
-    setSidebar(sidebarClassname + "z-10");
-    setContents(contentsClassname + "left-0");
-    setShadow(shadowClassname + "opacity-60");
+    setSidebar(sidebarClassname + "left-0");
+    setShadow(shadowClassname + "opacity-60 z-50");
   };
 
   const off = () => {
-    setSidebar(sidebarClassname + "-z-10");
-    setContents(contentsClassname + "-left-full");
+    setSidebar(sidebarClassname + "-left-full");
     setShadow(shadowClassname + "opacity-0");
   };
 
@@ -38,6 +36,7 @@ const Sidebar = (props) => {
   return (
     <>
       <div id="sidebar" className={sidebar}>
+        <div id="shadow" className={shadow} />
         <div id="contents" className={contents}>
           <div
             id="top"
@@ -57,7 +56,7 @@ const Sidebar = (props) => {
                 <span className="material-symbols-outlined text-5xl">
                   motorcycle
                 </span>
-                <div className="text-xl">배달주문</div>
+                <div className="text-lg">배달주문</div>
               </div>
             </article>
             <article
@@ -68,7 +67,7 @@ const Sidebar = (props) => {
                 <span className="material-symbols-outlined text-5xl">
                   local_mall
                 </span>
-                <div className="text-xl">포장주문</div>
+                <div className="text-lg">포장주문</div>
               </div>
             </article>
           </div>
@@ -121,7 +120,6 @@ const Sidebar = (props) => {
             </div>
           </SidebarContents>
         </div>
-        {/* <div id="shadow" className={shadow}></div> */}
       </div>
     </>
   );
