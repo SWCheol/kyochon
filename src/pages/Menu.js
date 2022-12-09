@@ -4,10 +4,10 @@ import Content from "./components/Content";
 
 import MenuList from "./components/MenuList";
 
-import image from "../image.json";
+import menu from "../menu.json";
 
 const Menu = (props) => {
-  const menu = [
+  const menuList = [
     "전체메뉴",
     "교촌",
     "블랙",
@@ -17,15 +17,6 @@ const Menu = (props) => {
     "후라이드",
     "스페셜",
   ];
-
-  let style =
-    menu.length < 5
-      ? `basis-1/${menu.length} flex-none`
-      : "basis-1/5 flex-none";
-
-  const btnSelected = (e) => {
-    const color = "text-orange-500";
-  };
 
   return (
     <>
@@ -39,10 +30,10 @@ const Menu = (props) => {
           );
         })}
       </nav> */}
-      <HeaderNav menu={menu} parent={Menu} />
+      <HeaderNav menu={menuList} parent={Menu} />
       <Content>
         <div>
-          {image.menu.map((menu, index) => {
+          {menu.menu.map((menu, index) => {
             return (
               <MenuList
                 key={index}

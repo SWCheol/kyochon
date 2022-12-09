@@ -1,4 +1,4 @@
-import event from "../../image.json";
+import event from "../../event.json";
 
 const Carousel = () => {
   const eventMain = event.event.filter((ele) => ele.theme === "main");
