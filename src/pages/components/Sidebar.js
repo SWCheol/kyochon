@@ -6,9 +6,9 @@ import SidebarContents from "./SidebarContents";
 
 const Sidebar = (props) => {
   const sidebarClassname =
-    "max-w-sm w-full h-screen absolute top-0 left-0 transition-[left] z-15 ";
+    "max-w-sm w-full h-screen absolute top-0 -left-full transition-[left] z-15 ";
   const shadowClassname =
-    "w-[200vw] h-screen bg-black absolute left-1/4 duration-300 transition-[opacity] ";
+    "w-[200vw] h-screen bg-black absolute left-0 duration-300 transition-[opacity] ";
   const contents =
     "w-3/4 h-screen bg-white px-5 absolute top-0 duration-300 transition-[left] z-50 ";
 

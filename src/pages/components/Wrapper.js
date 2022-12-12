@@ -1,6 +1,6 @@
 const Wrapper = ({ children }) => {
   return (
-    <div className="max-w-sm w-full relative overflow-x-hidden">{children}</div>
+    <div className="max-w-lg w-full relative overflow-x-hidden">{children}</div>
   );
 };
 

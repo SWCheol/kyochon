@@ -58,7 +58,7 @@ const Home = () => {
               <span className="material-symbols-outlined text-7xl">
                 motorcycle
               </span>
-              <div>배달주문</div>
+              <div className="text-xl">배달주문</div>
             </div>
           </article>
           <article
@@ -69,7 +69,7 @@ const Home = () => {
               <span className="material-symbols-outlined text-7xl">
                 local_mall
               </span>
-              <div>포장주문</div>
+              <div className="text-xl">포장주문</div>
             </div>
           </article>
           <article>
@@ -80,7 +80,7 @@ const Home = () => {
               <span className="material-symbols-outlined text-7xl mr-4">
                 local_activity
               </span>
-              <span>E-쿠폰 주문</span>
+              <span className="text-xl">E-쿠폰 주문</span>
             </div>
           </article>
         </div>
