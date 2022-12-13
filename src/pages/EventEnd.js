@@ -15,23 +15,12 @@ const EventEnd = () => {
       <Header />
       <nav className="flex justify-around h-12 items-center text-base bg-white">
         <TopMenu link="/eventNow" title="진행 이벤트" />
-        <TopMenu
-          link="/eventEnd"
-          title="종료 이벤트"
-          select="text-orange-500"
-        />
+        <TopMenu link="/eventEnd" title="종료 이벤트" select="text-orange-500" />
       </nav>
       <Content>
         <div className="">
           {eventEnd.map((img, index) => {
-            return (
-              <EventList
-                key={index}
-                src={img.src}
-                name={img.name}
-                date={img.date}
-              ></EventList>
-            );
+            return <EventList key={index} src={img.src} name={img.name} date={img.date}></EventList>;
           })}
         </div>
       </Content>

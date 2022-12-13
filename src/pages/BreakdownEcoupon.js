@@ -9,11 +9,7 @@ const BreakdownEcoupon = () => {
       <Header />
       <nav className="flex justify-around h-12 items-center text-base bg-white">
         <TopMenu link="/breakdownOut" title="배달/포장 주문" />
-        <TopMenu
-          link="/breakdownEcoupon"
-          title="E-쿠폰 주문"
-          select="text-orange-500"
-        />
+        <TopMenu link="/breakdownEcoupon" title="E-쿠폰 주문" select="text-orange-500" />
       </nav>
       <Content></Content>
     </>

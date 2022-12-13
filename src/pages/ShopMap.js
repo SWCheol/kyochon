@@ -15,11 +15,7 @@ const ShopMap = () => {
       <Header />
       <nav className="flex justify-around h-12 items-center text-base bg-white">
         <TopMenu link="/shop" title="매장 검색" />
-        <TopMenu
-          link="/shop/shopMap"
-          title="내 주변 매장 찾기"
-          select="text-orange-500"
-        />
+        <TopMenu link="/shop/shopMap" title="내 주변 매장 찾기" select="text-orange-500" />
       </nav>
       <Content>
         <Map />
@@ -64,15 +60,11 @@ const ShopMap = () => {
             <div className="basis-1/4">특성</div>
             <div className="basis-3/4 flex">
               <div>
-                <span className="material-symbols-outlined text-3xl mr-4">
-                  motorcycle
-                </span>
+                <span className="material-symbols-outlined text-3xl mr-4">motorcycle</span>
                 <div>배달</div>
               </div>
               <div>
-                <span className="material-symbols-outlined text-3xl">
-                  local_mall
-                </span>
+                <span className="material-symbols-outlined text-3xl">local_mall</span>
                 <div>포장</div>
               </div>
             </div>

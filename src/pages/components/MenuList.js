@@ -4,10 +4,7 @@ const MenuList = (props) => {
   return (
     <>
       <div className="ml-auto mr-auto border-b border-solid border-gray-200 text-left flex justify-between items-center">
-        <Link
-          to="/Menu"
-          className="basis-5/6 flex justify-between items-center px-4 py-8"
-        >
+        <Link to="/Menu" className="basis-5/6 flex justify-between items-center px-4 py-8">
           <div className="basis-1/2 h-fit">
             <img className="w-full" src={props.src} alt={props.name} />
           </div>
@@ -16,9 +13,7 @@ const MenuList = (props) => {
             <div>{props.price}</div>
           </div>
         </Link>
-        <button className="material-symbols-outlined text-3xl basis-1/6">
-          add_shopping_cart
-        </button>
+        <button className="material-symbols-outlined text-3xl basis-1/6">add_shopping_cart</button>
       </div>
     </>
   );

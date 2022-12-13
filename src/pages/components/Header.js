@@ -10,20 +10,14 @@ const Header = () => {
   const [active, setActive] = useState("");
 
   const sideBtn = () => {
-    active === "active"
-      ? setActive((active) => (active = ""))
-      : setActive((active) => (active = "active"));
+    active === "active" ? setActive((active) => (active = "")) : setActive((active) => (active = "active"));
   };
 
   return (
     <header className="flex justify-between items-center bg-white h-12">
       {location.pathname === "/" ? <Sidebar active={active} /> : ""}
       {location.pathname === "/" ? (
-        <button
-          id="sideBtn"
-          onClick={sideBtn}
-          className="w-12 h-12 flex justify-center items-center z-50"
-        >
+        <button id="sideBtn" onClick={sideBtn} className="w-12 h-12 flex justify-center items-center z-50">
           <span className="material-symbols-outlined text-3xl">menu</span>
         </button>
       ) : (
@@ -33,9 +27,7 @@ const Header = () => {
       )}
       <h1 className="text-xl font-extrabold tracking-widest">KYOCHON 1991</h1>
       <button className="w-12 h-12 flex justify-center items-center">
-        <span className="material-symbols-outlined text-3xl">
-          shopping_cart
-        </span>
+        <span className="material-symbols-outlined text-3xl">shopping_cart</span>
       </button>
     </header>
   );

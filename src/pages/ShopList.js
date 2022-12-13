@@ -18,15 +18,8 @@ const ShopList = () => {
       </nav>
       <Content>
         <form className="w-10/12 mx-auto relative border border-solid border-black rounded-xl mt-4 mb-2">
-          <input
-            className="text-lg"
-            type="text"
-            placeholder="매장명을 검색해주세요"
-            value="강남"
-          />
-          <span className="material-symbols-outlined absolute top-px">
-            search
-          </span>
+          <input className="text-lg" type="text" placeholder="매장명을 검색해주세요" value="강남" />
+          <span className="material-symbols-outlined absolute top-px">search</span>
         </form>
         <div className="text-lg text-left pl-8 mb-2">
           검색결과 <span className="font-bold">17개의 매장</span>이 있습니다.
