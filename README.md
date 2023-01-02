@@ -1,34 +1,47 @@
-<!-- prettier-ignore-start -->
-
 # 교촌치킨 모바일 하이브리드 웹앱
 
-## 1차 개발 기간 : 22/11/15 ~ 22/11/30
+## 개발 기간 : 22/11/15 ~ 22/11/30
+
+#### https://kyochonpwa.netlify.app/
 
 ---
 
-## 포트폴리오..
-https://www.figma.com/file/ize8T60Jg919NoFbsUIJKS/kyochonPWA?node-id=235%3A110&t=25GhJ7uIzayYZTTv-0
+### stack
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Node.js-v18.12.1-72a960"/>
+  <img src="https://img.shields.io/badge/NPM-v8.19.2-c53635"/>
+  <img src="https://img.shields.io/badge/Yarn-v1.22.19-2c8ebb"/>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/SCSS-v1.56-c66394"/>
+  <img src="https://img.shields.io/badge/Tailwindcss-v3.2.4-2b91a9"/>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/React-v18.2.0-5ed3f3"/>
+  <img src="https://img.shields.io/badge/React Router Dom-v6.4.3-f44250"/>
+  <img src="https://img.shields.io/badge/Create React app-v5.0.1-09cca7"/>
+</div>
 
 ---
 
-## 기술 스택
-
-- Node.js
-  node: 18.12.1
-  npm: 8.19.2
-  yarn: 1.22.19
-- React
-  react: 18.2.0
-  react-dom: 18.2.0
-  react-router-dom: 6.4.3
-  create-react-app: 5.0.1
-- CSS
-  tailwindcss: 3.2.4
-
+### Description
+  실제 교촌치킨 앱을 웹페이지에서도 볼 수 있도록 제작하였고 PWA를 사용하여 웹앱이나 모바일 앱으로도 사용할 수 있도록 하였습니다.
+    
+  ![캡처](https://user-images.githubusercontent.com/110226523/210194146-6b9875ba-dbe5-4ac4-a800-d1bdca902a43.PNG)
+  
 ---
 
-## 특징
-1. PWA(Desktop 웹에서 다운로드 가능. 모바일 다운로드는 아직)
-2. 모바일 전용 크기(가로 최대 384px)
+### information
+  - figma 디자인
+    <div>https://www.figma.com/file/ize8T60Jg919NoFbsUIJKS/kyochonPWA?node-id=235%3A110&t=25GhJ7uIzayYZTTv-0</div>
+  - 모바일 전용 크기(가로 최대 384px)
+  - PWA
+---
 
-<!-- prettier-ignore-end -->
+### function
+  - 사이드 햄버거 메뉴
+  - 하단 4개 메뉴
+  - 카카오 지도 API 연동
