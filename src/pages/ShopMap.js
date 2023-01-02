@@ -14,8 +14,8 @@ const ShopMap = () => {
     <>
       <Header />
       <nav className="flex justify-around h-12 items-center text-base bg-white">
-        <TopMenu link="/shop" title="매장 검색" />
-        <TopMenu link="/shop/shopMap" title="내 주변 매장 찾기" select="text-orange-500" />
+        <TopMenu link="/shopList" title="매장 검색" />
+        <TopMenu link="/shopMap" title="내 주변 매장 찾기" select="text-orange-500" />
       </nav>
       <Content>
         <Map />

@@ -1,11 +1,11 @@
-import Header from "../components/Header";
-import Content from "../components/Content";
+import Header from "./components/Header";
+import Content from "./components/Content";
 
-import TopMenu from "../components/TopMenu";
+import TopMenu from "./components/TopMenu";
 
-import ShopSearch from "../components/ShopSearch";
+import ShopSearch from "./components/ShopSearch";
 
-import shopLocation from "../../shopLocation.json";
+import shopLocation from "./../shopLocation.json";
 
 const ShopList = () => {
   console.log(shopLocation.seoul);
@@ -13,8 +13,8 @@ const ShopList = () => {
     <>
       <Header />
       <nav className="flex justify-around h-12 items-center text-base bg-white">
-        <TopMenu link="/shop" title="매장 검색" select="text-orange-500" />
-        <TopMenu link="/shop/shopMap" title="내 주변 매장 찾기" />
+        <TopMenu link="/shopList" title="매장 검색" select="text-orange-500" />
+        <TopMenu link="/shopMap" title="내 주변 매장 찾기" />
       </nav>
       <Content>
         <form className="w-10/12 mx-auto relative border border-solid border-black rounded-xl mt-4 mb-2">

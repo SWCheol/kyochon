@@ -11,7 +11,12 @@ const BreakdownEcoupon = () => {
         <TopMenu link="/breakdownOut" title="배달/포장 주문" />
         <TopMenu link="/breakdownEcoupon" title="E-쿠폰 주문" select="text-orange-500" />
       </nav>
-      <Content></Content>
+      <Content>
+        <div className="font-bold flex justify-center items-center flex-col relative top-1/4">
+          <img src="img/orderList.png" className="w-1/2 mb-4" alt="주문내역이 없습니다." />
+          <div>주문내역이 없습니다</div>
+        </div>
+      </Content>
     </>
   );
 };

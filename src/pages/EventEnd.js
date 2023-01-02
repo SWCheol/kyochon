@@ -1,9 +1,9 @@
-import Header from "../components/Header";
-import Content from "../components/Content";
+import Header from "./components/Header";
+import Content from "./components/Content";
 
-import TopMenu from "../components/TopMenu";
+import TopMenu from "./components/TopMenu";
 
-import EventList from "../components/EventList";
+import EventList from "./components/EventList";
 
 import image from "../event.json";
 
