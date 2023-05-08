@@ -35,8 +35,6 @@
 ---
 
 ### information
-  - figma 디자인
-    <div>https://www.figma.com/file/ize8T60Jg919NoFbsUIJKS/kyochonPWA?node-id=235%3A110&t=25GhJ7uIzayYZTTv-0</div>
   - 모바일 전용 크기(가로 최대 384px)
   - PWA
 ---
